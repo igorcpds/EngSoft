@@ -35,3 +35,4 @@ jobs:
             ${{ env.DOCKER_REPO }}:${{ github.sha }} 
           cache-from: type=gha # Usa cache do GitHub Actions para builds mais rápidos
           cache-to: type=gha,mode=max
+
