@@ -90,4 +90,4 @@ def delete_item(item_id: int):
 @app.get("/")
 def read_root():
 
-    return {"message": "Welcome to the RESTful API do Mackenzie!"}
+    return {"message": "Oi meu nome é Igor"}
